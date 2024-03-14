@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.App {
+  text-align: center;
+}
+body {
+  font-family: 'Roboto', sans-serif; 
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.header{
+  width: 100%;
+  background-color: rgb(34, 34, 82);
+  color: #fff;
+  padding: 1%;
+  text-align: left;
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+  padding: 2px;
+}
+.card-header{
+  text-align: right;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home{
+  height: 100vh;
+  background-color: rgb(166, 154, 230);
+}
+.text{
+  color: yellow;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+
+/* Table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #0c0b0b !important;;
+}
+
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+
+.btn {
+  margin-right: 5px;
+}
+
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc !important;;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(5, 2, 2, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: flex-end;
+}
